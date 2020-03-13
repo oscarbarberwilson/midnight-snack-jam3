@@ -1,2 +1,3 @@
-# midnight-snack-jam3
-Week long prototype of Midnight Snack
+# Midnight Snack ♦︎ 289310 Jam 3 ♦︎ Week long prototype
+
+Team TRASH PANDA
