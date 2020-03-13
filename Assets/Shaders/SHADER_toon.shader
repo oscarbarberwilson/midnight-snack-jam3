@@ -1,4 +1,4 @@
-﻿Shader "Roystan/Toon"
+﻿Shader "TRASHPANDA/Toon"
 {
 	Properties
 	{

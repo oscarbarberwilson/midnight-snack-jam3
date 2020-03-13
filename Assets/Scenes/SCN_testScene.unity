@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 47195387}
   - component: {fileID: 47195386}
   m_Layer: 0
-  m_Name: ShadowCaster (1)
+  m_Name: GEO_girder_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 67874528}
   - component: {fileID: 67874527}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: GEO_testSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,7 +236,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e57ca4cbec3126a468352fa1ecbad40e, type: 2}
+  - {fileID: 2100000, guid: 39f71a0990387490487f880f6e71396e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -277,7 +277,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &170076733
 GameObject:
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 170076735}
   - component: {fileID: 170076734}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: LIGHT_sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 240972201}
   - component: {fileID: 240972200}
   m_Layer: 0
-  m_Name: ShadowCaster (4)
+  m_Name: GEO_girder_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 516668817}
   - component: {fileID: 516668821}
   m_Layer: 0
-  m_Name: Player
+  m_Name: CHAR_player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -512,7 +512,7 @@ Transform:
   m_Children:
   - {fileID: 725795402}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &516668821
 MonoBehaviour:
@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: CAM_Main
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -609,7 +609,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 36.592003, y: 0, z: 0}
 --- !u!1 &696258084
 GameObject:
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 696258086}
   - component: {fileID: 696258085}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: GEO_wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 725795401}
   - component: {fileID: 725795400}
   m_Layer: 0
-  m_Name: GFX
+  m_Name: GEO_player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,7 +795,7 @@ GameObject:
   - component: {fileID: 814670253}
   - component: {fileID: 814670252}
   m_Layer: 0
-  m_Name: ShadowCaster (3)
+  m_Name: GEO_girder_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -875,7 +875,7 @@ GameObject:
   - component: {fileID: 1067661349}
   - component: {fileID: 1067661348}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: GEO_floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -953,7 +953,7 @@ Transform:
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1076408770
 GameObject:
@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 1076408772}
   - component: {fileID: 1076408771}
   m_Layer: 0
-  m_Name: ShadowCaster (2)
+  m_Name: GEO_girder_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1046,7 +1046,7 @@ GameObject:
   - component: {fileID: 1181773247}
   - component: {fileID: 1181773246}
   m_Layer: 0
-  m_Name: ShadowCaster (5)
+  m_Name: GEO_girder_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 1428001487}
   - component: {fileID: 1428001486}
   m_Layer: 0
-  m_Name: ShadowCaster
+  m_Name: GEO_girder_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1190,35 +1190,5 @@ Transform:
   m_LocalScale: {x: 17.319614, y: 0.16095, z: 0.28767}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1901508604
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1901508605}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1901508605
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901508604}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
