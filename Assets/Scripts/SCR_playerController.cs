@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class SCR_playerController : MonoBehaviour
 {
     public float moveSpeed;
     private Rigidbody myRigidbody;

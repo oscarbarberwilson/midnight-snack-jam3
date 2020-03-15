@@ -87,3 +87,6 @@
 *.asset merge=unityyamlmerge eol=lf linguist-generated
 *.meta merge=unityyamlmerge eol=lf linguist-generated
 *.controller merge=unityyamlmerge eol=lf
+
+## FMOD ##
+/Assets/StreamingAssets/*.bank filter=lfs diff=lfs merge=lfs -text
