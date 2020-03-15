@@ -120,3 +120,5 @@ $RECYCLE.BIN/
 /Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset.meta
 fmod.log
 fmod_editor.log
+fmod_editor.log
+Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
